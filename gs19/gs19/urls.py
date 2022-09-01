@@ -19,6 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('api.urls')),
-    path('auth/', include('rest_framework.urls', namespace='rest_framework')), #This line is for getting login button in browsable 
+    path('auth/', include('rest_framework.urls', namespace='rest_framework')), #This line is for getting LOGIN BUTTON in browsable 
 ]
 
