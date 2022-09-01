@@ -21,4 +21,3 @@ urlpatterns = [
     path('',include('api.urls')),
     path('auth/', include('rest_framework.urls', namespace='rest_framework')), #This line is for getting LOGIN BUTTON in browsable 
 ]
-
